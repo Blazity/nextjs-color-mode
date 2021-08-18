@@ -1,16 +1,21 @@
 import React from 'react'
 import Head from 'next/head'
-import { ColorModeScript } from 'next-next-color-mode'
+import { ColorModeScript } from 'nextjs-color-mode'
 
 const criticalCss = `
-.light-theme {
+.next-light-theme {
 --background: #fff;
 --text: #000;
 }
 
-.dark-theme {
+.next-dark-theme {
 --background: #000;
 --text: #fff;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
 }
 `
 

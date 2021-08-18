@@ -2014,6 +2014,11 @@ next@11.1.0:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
+nextjs-color-mode@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/nextjs-color-mode/-/nextjs-color-mode-1.0.2.tgz#12713c30ccfecbf8e87f5c361cd9a8dc2236fa1f"
+  integrity sha512-wwUpmKI51/eVWaXwvjB+Dc9iP1z/ERpgpEa05CWT7n9mHuMC5gwPrYkrnQmoHPvzW3/YRuQiOBe8QVLmhcFVAQ==
+
 node-fetch@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"

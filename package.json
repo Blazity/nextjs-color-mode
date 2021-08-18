@@ -1,6 +1,6 @@
 {
   "name": "nextjs-color-mode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "description",
   "source": "src/index.ts",
   "main": "./lib/next-color-mode.cjs",

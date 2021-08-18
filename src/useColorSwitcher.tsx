@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 
-export function ColorSwitcher() {
+export function useColorSwitcher() {
   const [isLightMode, { toggle }] = useBoolean(() => {
     const colorMode = localStorage.getItem('nextColorMode')
     if (!colorMode) {
