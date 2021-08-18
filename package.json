@@ -1,0 +1,49 @@
+{
+  "name": "next-next-color-mode",
+  "version": "1.8.0",
+  "description": "description",
+  "source": "src/index.ts",
+  "main": "./lib/next-color-mode.cjs",
+  "module": "./lib/next-color-mode.module.js",
+  "unpkg": "./lib/next-color-mode.umd.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "cd preview && npm run dev",
+    "prepublishOnly": "npm run build",
+    "prebuild": "rimraf lib",
+    "build": "microbundle",
+    "build:watch": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmstefanski/next-color-mode.git"
+  },
+  "keywords": [
+    "nextjs",
+    "nextjs-plugin"
+  ],
+  "author": "bmstefanski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmstefanski/next-color-mode/issues"
+  },
+  "homepage": "https://github.com/bmstefanski/next-color-mode#readme",
+  "peerDependencies": {
+    "next": ">=9.0.0",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^16.4.13",
+    "@types/react": "^17.0.18",
+    "microbundle": "^0.13.3",
+    "prettier": "^2.3.2",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "typescript": "^4.3.5"
+  }
+}
