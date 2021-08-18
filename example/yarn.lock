@@ -1953,6 +1953,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
+next-next-color-mode@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/next-next-color-mode/-/next-next-color-mode-1.0.0.tgz#76a67d5db19469f681a91f28cdec0ae9577daae6"
+  integrity sha512-5zBEgx9f6yuzCMApqE1PMDg+mprkZFu2MZwcEqxORBKgMNflWB0HFQ+th13OmQwqQV8sWOWhLPTXkJ50loo5nA==
+
 next@11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/next/-/next-11.1.0.tgz#767d4c4fa0b9b0c768cdbd6c9f03dd86b5d701c0"

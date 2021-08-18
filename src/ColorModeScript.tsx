@@ -1,5 +1,4 @@
 import React from 'react'
-import Head from 'next/head'
 
 export const initColorModeScript = `
 const selectedColorMode = localStorage.getItem("nextColorMode");
@@ -26,9 +25,5 @@ function appendThemeClassName(colorMode) {
 `
 
 export function ColorModeScript() {
-  return (
-    <Head>
-      <script dangerouslySetInnerHTML={{ __html: initColorModeScript }} />
-    </Head>
-  )
+  return <script dangerouslySetInnerHTML={{ __html: initColorModeScript }} />
 }

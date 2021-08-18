@@ -1,6 +1,6 @@
 {
-  "name": "next-next-color-mode",
-  "version": "1.8.0",
+  "name": "nextjs-color-mode",
+  "version": "1.0.2",
   "description": "description",
   "source": "src/index.ts",
   "main": "./lib/next-color-mode.cjs",
@@ -14,8 +14,8 @@
     "dev": "cd preview && npm run dev",
     "prepublishOnly": "npm run build",
     "prebuild": "rimraf lib",
-    "build": "microbundle",
-    "build:watch": "microbundle watch"
+    "build": "microbundle --jsx React.createElement",
+    "build:watch": "microbundle watch --jsx React.createElement"
   },
   "repository": {
     "type": "git",
