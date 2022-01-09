@@ -1,6 +1,6 @@
 {
   "name": "nextjs-color-mode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A helper for creating non-flickering and accessible themed applications",
   "source": "src/index.ts",
   "main": "./lib/next-color-mode.cjs",
