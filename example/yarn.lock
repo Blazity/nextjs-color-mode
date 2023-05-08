@@ -1273,9 +1273,9 @@ next@12.1.0:
     "@next/swc-win32-x64-msvc" "12.1.0"
 
 nextjs-color-mode@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/nextjs-color-mode/-/nextjs-color-mode-1.0.3.tgz#caf97dc0fc389dc37b37ee5cd92bbbbac0807a5c"
-  integrity sha512-maA6Z7o7r//eOZvAPmCiIxmh/vpmEx1Vu0sG3a998FpLHyysMnhP7PBfh08lnFSYHuJUva7+nx+5QyE1AsTU6g==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/nextjs-color-mode/-/nextjs-color-mode-1.0.5.tgz#d8251bcb3dd3fbf5ead3f6343e87c581a6444b60"
+  integrity sha512-f8lIekgXfiH1ydKbN+8AKos0uH/O8dmjjttZ3QcZj2/GfqW0HkOY8f66F4G0KIgd3eRuXA2tXZKEcq6t5ZWizg==
 
 normalize-package-data@^2.3.2:
   version "2.5.0"
