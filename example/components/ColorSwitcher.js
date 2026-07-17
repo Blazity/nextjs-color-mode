@@ -2,7 +2,7 @@ import { ColorModeStyles, useColorModeValue, useColorSwitcher } from 'nextjs-col
 
 export default function ColorSwitcher(props) {
   const { toggleTheme, colorMode } = useColorSwitcher()
-  const [buttonColor, buttonCss] = useColorModeValue('button-color', 'green', 'yellow')
+  const [buttonColor, buttonCss] = useColorModeValue('button-color', '#844cc2', '#844cc2')
 
   return (
     <>
